@@ -1,0 +1,39 @@
+.living-lists {
+  list-style: none;
+}
+
+.living-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.living-info__head {
+  color: #c08d31;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.living-info__title {
+  color: black;
+  font-size: 13px;
+}
+
+.living-info:hover .living-info__title {
+  text-decoration: underline;
+}
+
+.living-info__paragraph {
+  color: #404040;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.living-info__writer {
+  color: #505050;
+  font-size: 12px;
+}
+
+.living-info__date {
+  color: grey;
+  font-size: 12px;
+}

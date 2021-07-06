@@ -1,0 +1,410 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .box-model {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+} */
+
+/* .margin-one {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+
+  margin-bottom: 100px;
+}
+
+.margin-two {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+
+  margin-top: 50px;
+} */
+
+/* .margin-parent {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.margin-child {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+
+  margin-top: 50px;
+} */
+
+/* h1 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+
+  margin-top: 50px;
+}
+
+span {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+
+  margin-top: 50px;
+} */
+
+/* .inline-block {
+  display: inline-block;
+
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.inline,
+.inline-block,
+img {
+  vertical-align: middle;
+} */
+
+/* .static-parents {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.static-children {
+  position: static;
+
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+
+  top: 50px;
+} */
+
+/* .box-1 {
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+}
+
+.fixed-parents {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.fixed-children {
+  position: fixed;
+  color: white;
+
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.box-2 {
+  width: 300px;
+  height: 3000px;
+  background-color: green;
+} */
+
+/* .box-1 {
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+}
+
+.relative-parents {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.relative-children {
+  position: relative;
+  color: white;
+
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+} */
+
+/* .box-1 {
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+}
+
+.absolute-parents {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.absolute-children {
+  position: absolute;
+  color: white;
+
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+
+  top: 100px;
+} */
+
+/* .default-1 {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.parents {
+  position: static;
+  position: fixed;
+  position: relative;
+  position: absolute;
+
+  height: 200px;
+  width: 100%;
+  background-color: aqua;
+}
+
+.children {
+  position: static;
+  position: fixed;
+  position: relative;
+  position: absolute;
+
+  opacity: 0.5;
+
+  color: white;
+  font-size: 20px;
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+}
+
+.default-2 {
+  height: 3000px;
+  width: 100%;
+  background-color: coral;
+} */
+
+/* .z-one {
+  position: absolute;
+
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+
+  z-index: 100;
+}
+
+.z-two {
+  position: fixed;
+
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+
+  z-index: 99;
+} */
+
+/* .left-1 {
+  float: left;
+
+  width: 100px;
+  height: 150px;
+  background-color: green;
+}
+
+.right-1 {
+  float: right;
+
+  width: 100px;
+  height: 150px;
+  background-color: blue;
+} */
+
+/* header {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+}
+
+section {
+  width: 1100px;
+}
+
+.left {
+  float: left;
+
+  width: 100px;
+  height: 200px;
+  background-color: pink;
+}
+
+.center {
+  float: left;
+
+  width: 300px;
+  height: 200px;
+  background-color: blue;
+}
+
+.right {
+  float: right;
+
+  width: 100px;
+  height: 200px;
+  background-color: green;
+}
+
+footer {
+  clear: both;
+
+  width: 100%;
+  height: 100px;
+  background-color: black;
+} */
+
+/* .left-2 {
+  float: left;
+
+  width: 100px;
+  height: 150px;
+  background-color: yellow;
+}
+
+.right-2 {
+  float: right;
+
+  width: 100px;
+  height: 150px;
+  background-color: blue;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer {
+  width: 1000%;
+  height: 100px;
+
+  background-color: beige;
+} */
+
+/* .overflow-box {
+  overflow-y: scroll;
+
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+} */
+
+/* section {
+  overflow: hidden;
+  width: 800px;
+  background-color: orange;
+}
+
+.left {
+  float: left;
+
+  width: 100px;
+  height: 150px;
+  background-color: yellow;
+}
+
+.right {
+  float: right;
+
+  width: 100px;
+  height: 150px;
+  background-color: blue;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+} */
+
+/* section {
+  overflow: hidden;
+}
+
+.image-left {
+  float: left;
+
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  background-color: aquamarine;
+}
+
+p {
+  font-size: 20px;
+}
+
+footer {
+  background-color: burlywood;
+  font-size: 20px;
+} */
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+
+  width: 1000px;
+  border: solid 10px red;
+}
+
+.item {
+  width: 200px;
+}
+
+.one {
+  height: 100px;
+  background-color: yellow;
+}
+
+.two {
+  height: 200px;
+  background-color: blue;
+}
+
+.three {
+  height: 300px;
+  background-color: orange;
+} */
+
+/* .center-1 {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+
+  margin: 0 auto;
+}
+
+.center-2 {
+  position: relative;
+
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+} */

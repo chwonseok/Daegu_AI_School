@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color:rgba(239, 241, 204, 0.829);
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+li a {
+  color: white;
+}
+
+.menu ul {
+  background-color: rgba(255, 255, 0, 0.658);
+  overflow: hidden;
+}
+
+.menu ul li {
+  /* display: inline-block; 각 li 사이에 고유의 빈공간 발생*/
+  float: left;
+  background-color: rgb(14, 97, 72);
+  border-left: 2px black solid;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+}
+
+.menu ul li a {
+  display: block;
+  
+  width: 100px;
+  padding: 10px 0;
+  text-align: center;
+  line-height: 50px;
+}
+
+.menu ul li:last-child {
+  border-right: 2px black solid;
+}

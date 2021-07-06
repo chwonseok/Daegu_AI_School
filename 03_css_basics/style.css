@@ -1,0 +1,93 @@
+/* header {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+header h1 {
+  color: blue;
+}
+
+p {
+  color: green;
+} */
+
+/* h1 {
+  color: blue;
+}
+
+#test1 p {
+  color: red;
+}
+
+.test2 {
+  color: green;
+}
+
+input[type='text'] {
+  border: 2px solid blue;
+}
+
+input[type='password'] {
+  border: 2px dotted red;
+} */
+
+/* #intro h1 {
+  color: blue;
+}
+
+#intro div h1 {
+  color: green;
+}
+
+header h1 {
+  color: red;
+} */
+
+/* #background {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  background-image: url(bike.png);
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+/* a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: black;
+} */
+
+/* li:first-child {
+  color: blue;
+}
+
+li:last-child {
+  color: red;
+}
+
+li:nth-child(3),
+li:nth-child(4) {
+  color: grey;
+}
+
+li:nth-child(2n) {
+  font-size: 24px;
+} */
+
+/* li::before {
+  content: '|';
+}
+li::after {
+  content: '|';
+} */

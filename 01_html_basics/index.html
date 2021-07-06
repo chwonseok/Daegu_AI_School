@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS Tutorial</title>
+    <link
+      rel="shortcut icon"
+      type="image/icon"
+      sizes="32x32"
+      href="pencil.png"
+    />
+  </head>
+  <body>
+    <!-- <video src="sample.mp4" controls autoplay muted loop></video> -->
+    <!-- 1) controls를 사용해야 video 태그 이용 가능
+         2) autoplay 기능은 chrome에서 막아둠, 따라서 muted를 넣어야 autoplay 사용 가능 ∵ 소리가 갑자기 재생되는 경우를 방지하기 위한 chrome의 제약사항
+         3) loop: 무한재생
+         4) width와 height로 크기 설정 가능
+         5) audio 또한 video 태그와 같은 속성을 가짐 -->
+    <!-- <section>
+      <form method="post">
+        <div>
+          <label for="firstname">1. First Name</label>
+          <input
+            id="fistname"
+            placeholder="enter your first name"
+            required
+            minlength="2"
+            maxlength="8"
+          />
+
+          <label for="lastname">2. Last Name</label>
+          <input
+            id="lastname"
+            placeholder="enter your last name"
+            required
+            minlength="2"
+            maxlength="8"
+          />
+        </div>
+        <div>
+          <label for="email">3. Email</label>
+          <input id="email" required />
+        </div>
+        <div>
+          <label for="pw">4. Password</label>
+          <input
+            type="password"
+            id="pw"
+            required
+            minlength="4"
+            maxlength="10"
+          />
+        </div>
+        <div>
+          <label for="num">5. Number</label>
+          <input id="num" />
+        </div>
+        <div>
+          <lable for="upload">6. File Upload</lable>
+          <input id="upload" type="file" accept="image/png, image/jpg" />
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <p>Where have I been to?</p>
+      <div>
+        <label for="n1">South Korea</label>
+        <input id="n1" type="checkbox" name="country" value="southkorea" />
+      </div>
+      <div>
+        <label for="n2">Canada</label>
+        <input id="n2" type="checkbox" name="country" value="canada" />
+      </div>
+      <div>
+        <label for="n3">United States</label>
+        <input id="n3" type="checkbox" name="country" value="usa" />
+      </div>
+      <div>
+        <label for="n4">New Zealand</label>
+        <input id="n4" type="checkbox" name="country" value="newzealand" />
+      </div>
+    </section>
+
+    <section>
+      <p>Where haven't I been to?</p>
+      <div>
+        <label for="c1">Laos</label>
+        <input id="c1" type="radio" name="country" value="laos" />
+      </div>
+      <div>
+        <label for="c2">North Korea</label>
+        <input id="c2" type="radio" name="country" value="northkorea" checked />
+      </div>
+      <div>
+        <label for="c3">Thailand</label>
+        <input id="c3" type="radio" name="country" value="thailand" />
+      </div>
+    </section>
+
+    <section>
+      <label for="question">question</label>
+      <textarea id="question" cols="20" rows="3"></textarea>
+    </section>
+
+    <section>
+      <select name="workout">
+        <option selected disabled>What workout is for today?</option>
+        <option value="chest">Chest</option>
+        <option value="legs">Legs</option>
+        <option value="arms">Arms</option>
+        <option value="back">Back</option>
+        <option value="shoulders">Shoulders</option>
+      </select>
+    </section>
+
+    <section>
+      <table>
+        <caption>
+          Product Info
+        </caption>
+        <thead>
+          <tr>
+            <th>name</th>
+            <th>color</th>
+            <th>price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Macbook air m1</td>
+            <td>Space grey</td>
+            <td>₩1,500,000</td>
+          </tr>
+          <tr>
+            <td rowspan="2">iphone 8</td>
+            <td>Space grey</td>
+            <td>₩900,000</td>
+          </tr>
+          <tr>
+            <td>iphone 8</td>
+            <td>Red</td>
+            <td>₩950,000</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="2">Total</td>
+            <td>3,350,000</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section> -->
+
+    <!-- 상단 header -->
+    <header>
+      <h1>
+        <a href="#">
+          <img />
+        </a>
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="#">first</a></li>
+          <li><a href="#">second</a></li>
+          <li><a href="#">third</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 본문 main, section -->
+    <main role="main">
+      <section>
+        <h2>
+          <!-- section: 대표성 있는 title이 반드시 필요 (h tag) -->
+          <!-- main 안 혹은 밖에서 사용 가능  -->
+        </h2>
+      </section>
+
+      <article>
+        <h2>
+          <!-- article: 실제 정보가 들어가는 공간 -->
+          <!-- article: 정보를 대표하는 title이 반드시 필요 (h tag)-->
+        </h2>
+      </article>
+    </main>
+
+    <aside>
+      <!-- 본문과의 관계성이 상대적으로 떨어지는 내용 작성 시 사용 -->
+    </aside>
+
+    <!-- 하단 footer -->
+    <footer></footer>
+
+    <!-- 임의의 작은 공간 -->
+    <div></div>
+
+    <!-- 유저가 입력하는 공간, Input은 반드시 form과 함께 사용 -->
+    <form></form>
+
+    <!-- Inline / Block -->
+    <!-- Inline: 공간 관련 세부 설정 불가능-->
+    <span>Inline</span>
+    <span>Inline</span>
+    <span>Inline</span>
+
+    <h3>Block</h3>
+    <h3>Block</h3>
+    <h3>Block</h3>
+  </body>
+</html>
