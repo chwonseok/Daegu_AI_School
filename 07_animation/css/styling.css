@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.transform {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+
+  /* transform: rotate(-10deg);
+  transform: scale(2, 3);
+  transform: skew(10deg, 10deg);
+  transform: translate(100px, 100px); */
+
+  -webkit-transform: rotate();
+  -moz-transform: rotate();
+  -ms-transform: rotate();
+  -o-transform: rotate();
+  transform: rotate();
+}
+
+.transition {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  cursor: pointer;
+
+  /* transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  transition-delay: 0.2s; */
+
+  transition: background-color 0.5s linear 0.2s, width 0.5s linear 0.2s;
+}
+
+.transition:hover {
+  background-color: darkcyan;
+  width: 300px;
+}
+
+.animation {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+
+  animation-name: changeWidth;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+
+  animation-iteration-count: 6;
+  animation-direction: normal;
+}
+
+@keyframes changeWidth {
+  0% {
+    width: 200px;
+    height: 200px;
+  }
+
+  50% {
+    background-color: yellowgreen;
+  }
+
+  100% {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+.spin-lion {
+  width: 100px;
+  height: 100px;
+  background-color: lightskyblue;
+
+  /* animation-name: spinLion;
+  animation-duration: 1500ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+
+  animation: spinLion 1.5s linear infinite alternate;
+}
+
+@keyframes spinLion {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
+}
