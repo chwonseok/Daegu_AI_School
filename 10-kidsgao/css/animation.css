@@ -1,0 +1,105 @@
+/* Intro Animation */
+#intro .intro-wrap .lion {
+  animation: spinLion 1s linear infinite alternate;
+}
+
+@keyframes spinLion {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+#intro .intro-wrap .rabbit {
+  animation: spinRabbit 1s linear infinite alternate;
+}
+
+@keyframes spinRabbit {
+  0% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+#intro .intro-wrap .bear {
+  animation: spinBear 1s linear infinite alternate;
+}
+
+@keyframes spinBear {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+#intro .intro-wrap .monkey {
+  animation: spinBear 1s linear infinite alternate;
+}
+
+@keyframes spinMonkey {
+  0% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(50deg);
+  }
+}
+
+#intro .cloud-wrap .dragonfly {
+  animation: flyDragonfly linear 3s infinite;
+}
+
+@keyframes flyDragonfly {
+  0% {
+    left: -366px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* farm3 */
+#farm3 .machine-wrap .timer {
+  animation: rotateTimer 10000ms linear infinite;
+}
+
+@keyframes rotateTimer {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#farm3 .machine-wrap .saw1 {
+  animation: rotateLeftSaw 10000ms linear infinite;
+}
+
+@keyframes rotateLeftSaw {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#farm3 .machine-wrap .saw2 {
+  animation: rotateRightSaw 10000ms linear infinite;
+}
+
+@keyframes rotateRightSaw {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
