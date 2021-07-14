@@ -103,3 +103,129 @@
     transform: rotate(0deg);
   }
 }
+
+/* forest1 */
+
+#forest1 .tree-wrap .rabbit1 {
+  animation: rotateRabbit1 linear 1s infinite alternate;
+}
+
+#forest1 .tree-wrap .rabbit2 {
+  animation: rotateRabbit2 linear 1s infinite alternate;
+}
+
+@keyframes rotateRabbit1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes rotateRabbit2 {
+  0% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* forest2 */
+#forest2 .machine-wrap2 .machine-left {
+  animation: moveLeft linear 1s infinite alternate;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+#forest2 .machine-wrap2 .machine-right {
+  animation: moveRight linear 1s infinite alternate;
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+/* forest3 */
+#forest3 .forest3-wrap .small-bird {
+  animation: smallBird linear 1s infinite alternate;
+}
+
+@keyframes smallBird {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+#forest3 .forest3-wrap .big-bird {
+  animation: bigBird linear 1s infinite alternate;
+}
+
+@keyframes bigBird {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+/* science */
+
+#science .science-wrap .left-gly {
+  animation: spinGly 1.5s linear infinite alternate;
+}
+
+@keyframes spinGly {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(50deg);
+  }
+}
+
+#science .science-wrap .right-water {
+  animation: spinWater 1.5s linear infinite alternate;
+}
+
+@keyframes spinWater {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-50deg);
+  }
+}
+
+/* night1 */
+#night1 .star-wrap .star1,
+#night1 .star-wrap .star2,
+#night1 .star-wrap .star3 {
+  animation: shiningStars 1s linear infinite alternate;
+}
+
+@keyframes shiningStars {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}

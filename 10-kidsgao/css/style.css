@@ -317,3 +317,310 @@ button {
   top: 350px;
   right: 80px;
 }
+
+/* forest1 */
+#forest1 {
+  position: relative;
+
+  width: 100%;
+  height: 1050px;
+  background-image: url(../img/forest/forest1/forest1_bg.png);
+}
+
+#forest1 .tree-left {
+  position: absolute;
+  left: 0;
+
+  width: 445px;
+  height: 1200px;
+  background-image: url(../img/forest/forest1/lefttree.png);
+}
+
+#forest1 .tree-wrap {
+  position: relative;
+  float: right;
+  top: 100px;
+
+  width: 304px;
+  height: 572px;
+}
+
+#forest1 .tree-wrap .tree-right {
+  position: absolute;
+  z-index: 110;
+
+  width: 304px;
+  height: 572px;
+  background-image: url(../img/forest/forest1/righttree.png);
+}
+
+#forest1 .tree-wrap .rabbit1 {
+  position: absolute;
+  margin: 435px 0 0 109.5px;
+
+  width: 82px;
+  height: 103px;
+  background-image: url(../img/forest/forest1/rabbit1.png);
+}
+
+#forest1 .tree-wrap .rabbit2 {
+  position: absolute;
+  margin: 435px 0 0 200px;
+
+  width: 56px;
+  height: 75px;
+  background-image: url(../img/forest/forest1/rabbit2.png);
+}
+
+/* forest2 */
+#forest2 {
+  width: 100%;
+  height: 750px;
+  background-image: url(../img/forest/forest2/forest2_bg.png);
+}
+
+#forest2 .frog {
+  position: absolute;
+  margin: 50px 0 0 100px;
+
+  width: 153px;
+  height: 257px;
+  background-image: url(../img/forest/forest2/frog.png);
+}
+
+#forest2 .machine-wrap2 {
+  position: relative;
+  left: 50%;
+  margin-left: -200px;
+  top: 180px;
+
+  width: 400px;
+  height: 400px;
+}
+
+#forest2 .machine-wrap2 .machine-bottom {
+  position: absolute;
+  margin-top: 220px;
+  z-index: 200;
+
+  width: 374px;
+  height: 162px;
+  background-image: url(../img/forest/forest2/machinebottom.png);
+}
+
+#forest2 .machine-wrap2 .machine-left {
+  position: absolute;
+  margin-top: 30px;
+  z-index: 200;
+
+  width: 123px;
+  height: 228px;
+  background-image: url(../img/forest/forest2/machineleft.png);
+}
+
+#forest2 .machine-wrap2 .machine-right {
+  position: absolute;
+  margin: 10px 0 0 260px;
+  z-index: 200;
+
+  width: 123px;
+  height: 248px;
+  background-image: url(../img/forest/forest2/machineright.png);
+}
+
+#forest2 .forest2-bubble {
+  position: relative;
+  top: -100px;
+  margin-right: 100px;
+
+  float: right;
+}
+
+#forest2 .forest2-tree {
+  position: relative;
+  top: 50px;
+
+  width: 304px;
+  height: 282px;
+  background-image: url(../img/forest/forest2/forest2tree.png);
+}
+
+/* forest3 */
+#forest3 {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/forest/forest3/forest3_bg.png);
+}
+
+#forest3 .forest3-wrap {
+  position: relative;
+  float: right;
+  top: 100px;
+
+  width: 354px;
+  height: 440px;
+}
+
+#forest3 .forest3-wrap .forest3-tree {
+  position: absolute;
+
+  width: 354px;
+  height: 440px;
+  background-image: url(../img/forest/forest3/forest3tree.png);
+}
+
+#forest3 .forest3-wrap .small-bird {
+  position: absolute;
+  top: 120px;
+  left: 125px;
+
+  width: 40px;
+  height: 35px;
+  background-image: url(../img/forest/forest3/bird_sm.png);
+}
+
+#forest3 .forest3-wrap .big-bird {
+  position: absolute;
+  margin: 280px 0 0 94px;
+
+  width: 83px;
+  height: 80px;
+  background-image: url(../img/forest/forest3/bird_big.png);
+}
+
+/* science */
+#science {
+  position: relative;
+
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/science/science_bg.png);
+}
+
+#science .science-wrap {
+  position: relative;
+  margin: 0 auto;
+
+  width: 1068px;
+  height: 655px;
+}
+
+#science .science-wrap .left-wrap {
+  float: left;
+
+  width: 288px;
+  height: 100%;
+}
+
+#science .science-wrap .left-wrap .left-gly {
+  margin: 0 0 130px 55px;
+
+  width: 230px;
+  height: 192px;
+  background-image: url(../img/science/gly.png);
+}
+
+#science .science-wrap .center-wrap {
+  position: relative;
+  float: left;
+
+  width: 488px;
+  height: 100%;
+}
+
+#science .science-wrap .center-wrap .purple-steam {
+  position: relative;
+  left: 50%;
+  margin-left: -120px;
+
+  width: 241px;
+  height: 216px;
+  background-image: url(../img/science/grape.png);
+}
+
+#science .science-wrap .center-wrap .funnel-back {
+  position: absolute;
+
+  width: 488px;
+  height: 438px;
+  background-image: url(../img/science/funnelback.png);
+}
+
+#science .science-wrap .center-wrap .funnel-front {
+  position: relative;
+  margin-top: 48px;
+
+  width: 485px;
+  height: 390px;
+  background-image: url(../img/science/funnelfront.png);
+}
+
+#science .science-wrap .right-wrap {
+  float: right;
+
+  width: 292px;
+  height: 100%;
+}
+
+#science .science-wrap .right-wrap .right-water {
+  margin-bottom: 130px;
+
+  width: 204px;
+  height: 191px;
+  background-image: url(../img/science/water.png);
+}
+
+#science .science-wrap .left-wrap p,
+#science .science-wrap .right-wrap p {
+  color: #8e7577;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 10px;
+}
+
+/* night1 */
+#night1 {
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/oneday/night1/night1_bg.png);
+}
+
+#night1 .owl {
+  position: absolute;
+  margin-top: 50px;
+
+  width: 334px;
+  height: 571px;
+  background-image: url(../img/oneday/night1/owl.png);
+}
+
+#night1 .star-wrap {
+  position: relative;
+  top: 150px;
+  margin-left: 600px;
+
+  width: 750px;
+  height: 400px;
+}
+
+#night1 .star-wrap .star1,
+#night1 .star-wrap .star2,
+#night1 .star-wrap .star3 {
+  position: absolute;
+
+  width: 53px;
+  height: 50px;
+  background-image: url(../img/oneday/night1/star1.png);
+}
+
+#night1 .star-wrap .star1 {
+  margin-top: 350px;
+}
+
+#night1 .star-wrap .star2 {
+  margin-left: 650px;
+}
+
+#night1 .star-wrap .star3 {
+  margin: 250px 0 0 500px;
+}
