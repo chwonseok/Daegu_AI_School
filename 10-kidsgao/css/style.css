@@ -624,3 +624,250 @@ button {
 #night1 .star-wrap .star3 {
   margin: 250px 0 0 500px;
 }
+
+/* night2 */
+#night2 {
+  position: relative;
+
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/oneday/night2/night2_bg.png);
+}
+
+#night2 .moon {
+  width: 135px;
+  height: 135px;
+  background-image: url(../img/oneday/night2/moon.png);
+}
+
+#night2 .night2-bubble {
+  position: absolute;
+
+  margin: 300px 0 0 80px;
+}
+
+#night2 .night2-tree {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 243px;
+  height: 588px;
+  background-image: url(../img/oneday/night2/night2_tree.png);
+}
+
+/* morning */
+#morning {
+  position: relative;
+
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/oneday/morning/morning_bg.png);
+}
+
+#morning .sun {
+  width: 131px;
+  height: 131px;
+  background-image: url(../img/oneday/morning/sun.png);
+}
+
+#morning .left-pine {
+  position: absolute;
+  top: 270px;
+
+  width: 231px;
+  height: 329px;
+  background-image: url(../img/oneday/morning/leftpine.png);
+}
+
+#morning .right-pine {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 294px;
+  height: 609px;
+  background-image: url(../img/oneday/morning/rightpine.png);
+}
+
+/* kitchen */
+#kitchen {
+  position: relative;
+
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/kitchen/kitchen_bg.png);
+}
+
+#kitchen .kitchen-left {
+  float: left;
+  width: 253px;
+  height: 384px;
+  background-image: url(../img/kitchen/pan.png);
+}
+
+#kitchen .kitchen-right {
+  float: right;
+
+  width: 243px;
+  height: 132px;
+  background-image: url(../img/kitchen/pot.png);
+}
+
+#kitchen .kitchen-center {
+  position: relative;
+  clear: both;
+  left: 50%;
+  margin-left: -275px;
+  top: -100px;
+
+  width: 483px;
+  height: 457px;
+}
+
+#kitchen .kitchen-center .kitchen-steam {
+  position: absolute;
+  z-index: 100;
+
+  width: 479px;
+  height: 457px;
+  background-image: url(../img/kitchen/steam.png);
+}
+
+#kitchen .kitchen-center .kitchen-smoke {
+  position: absolute;
+  margin-top: 230px;
+
+  width: 55px;
+  height: 56px;
+  background-image: url(../img/kitchen/smoke.png);
+}
+
+#kitchen .kitchen-bubble {
+  position: absolute;
+
+  top: 400px;
+  right: 100px;
+}
+
+/* color1 */
+#color1 {
+  position: relative;
+
+  width: 100%;
+  height: 750px;
+  background-image: url(../img/color/color1/color1_bg.png);
+}
+
+#color1 .penguin {
+  position: relative;
+  top: 100px;
+  left: 100px;
+
+  width: 356px;
+  height: 244px;
+  background-image: url(../img/color/color1/penguin.png);
+}
+
+#color1 .color1-bubble {
+  float: right;
+
+  margin: 100px 200px 0 0;
+}
+
+/* color2 */
+#color2 {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/color/color2/color2_bg.png);
+}
+
+#color2 .horse {
+  float: right;
+  margin: 100px 100px 0 0;
+  width: 188px;
+  height: 241px;
+  background-image: url(../img/color/color2/horse.png);
+}
+
+#color2 .color2-left {
+  position: relative;
+  clear: both;
+  top: 100px;
+  margin-left: 50px;
+
+  width: 500px;
+}
+
+#color2 .color2-left .color2-bubble {
+  margin-bottom: 30px;
+}
+
+#color2 .color2-left .btn-wrap {
+  margin-bottom: 20px;
+}
+
+#color2 .color2-left .btn-wrap .red,
+#color2 .color2-left .btn-wrap .yellow,
+#color2 .color2-left .btn-wrap .blue {
+  width: 50px;
+  height: 82px;
+}
+
+#color2 .color2-left .btn-wrap .red {
+  background-image: url(../img/color/color2/btn/btn_red.png);
+}
+
+#color2 .color2-left .btn-wrap .yellow {
+  background-image: url(../img/color/color2/btn/btn_yellow.png);
+}
+
+#color2 .color2-left .btn-wrap .blue {
+  background-image: url(../img/color/color2/btn/btn_blue.png);
+}
+
+#color2 .color2-left .color2-comment {
+  color: #827577;
+}
+
+/* color3 */
+#color3 {
+  position: relative;
+
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/color/color3/color3_bg.png);
+}
+
+#color3 .flag {
+  position: relative;
+  left: 50%;
+  margin-left: -887px;
+
+  width: 1774px;
+  height: 178px;
+  background-image: url(../img/color/color3/flag.png);
+}
+
+#color3 .books {
+  float: right;
+  width: 417px;
+  height: 178px;
+  background-image: url(../img/color/color3/book.png);
+}
+
+#color3 .logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -378.5px;
+}
+
+#color3 .dice {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 239px;
+  height: 200px;
+  background-image: url(../img/color/color3/dice.png);
+}

@@ -229,3 +229,53 @@
     transform: scale(0.7);
   }
 }
+
+/* night2 */
+#night2 .moon {
+  animation: movingMoon linear 5s infinite;
+}
+
+@keyframes movingMoon {
+  0% {
+    margin-left: -10%;
+  }
+
+  100% {
+    margin-left: 110%;
+  }
+}
+
+/* morning */
+#morning .sun {
+  animation: movingSun linear 5s infinite 0.5s;
+}
+
+@keyframes movingSun {
+  0% {
+    margin-left: -10%;
+  }
+  100% {
+    margin-left: 110%;
+  }
+}
+
+/* kitchen */
+
+#kitchen .kitchen-smoke {
+  animation-name: smokeEffect;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+}
+@keyframes smokeEffect {
+  0% {
+    transform: translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg)
+      rotateZ(0deg) translate(-50%, -50%);
+  }
+  100% {
+    transform: translate(-97px, -250px) scale(1) rotateX(0deg) rotateY(0deg)
+      rotateZ(0deg) translate(-50%, -50%);
+  }
+}
