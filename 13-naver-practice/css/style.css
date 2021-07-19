@@ -124,7 +124,7 @@ h6 {
   font-weight: 700;
 }
 
-/* main */
+/* big parts*/
 main {
   overflow: hidden;
 }
@@ -137,10 +137,9 @@ main {
 #main-right {
   float: right;
   width: 350px;
-  height: 2000px;
-  background: lightseagreen;
 }
 
+/* About main-left */
 .banner-wrap {
   width: 750px;
   height: 135px;
@@ -312,4 +311,126 @@ main {
 
 .date-wrap span {
   color: #505050;
+}
+
+/* About main-right */
+.account-wrap {
+  width: 100%;
+  border: solid 1px #dae1e6;
+  padding: 16px 16px 12px 16px;
+  background: #f7f9fa;
+}
+
+.account-wrap p {
+  font-size: 12px;
+  margin-bottom: 11px;
+}
+
+.account-wrap a {
+  display: block;
+  width: 100%;
+  background: #19ce60;
+  border-radius: 2px;
+
+  padding: 15px 0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+}
+
+.account-sub {
+  margin: 14px 8px 0 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-sub span {
+  font-size: 12px;
+}
+
+.sub-left span {
+  font-size: 12px;
+}
+
+.banner-right {
+  width: 348px;
+  height: 198px;
+  background: #000;
+  color: white;
+  font-size: 7rem;
+  text-align: center;
+  margin: 12px 0;
+
+  /* y축 정렬 */
+  line-height: 198px;
+}
+
+/* shop section */
+.shop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 0;
+}
+
+.shop-header h3,
+.shop-header h4 {
+  font-size: 14px;
+}
+
+.shop-header-right {
+  display: flex;
+}
+
+.shop-header-right h4 {
+  margin-left: 15px;
+}
+
+.shop-content {
+  border: 1px solid #e4e8eb;
+}
+
+.shop-list {
+  padding: 16px 4px 12px 6px;
+  background: #dae1e6;
+}
+
+.shop-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.shop-list li {
+  font-size: 12px;
+  width: 40px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.product-list {
+  padding: 30px 6px;
+}
+
+.product-list ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.product-list ul li {
+  margin-bottom: 10px;
+}
+
+.product-info {
+  width: 107px;
+  text-align: center;
+}
+
+.product-info h3,
+.product-info span {
+  font-size: 12px;
 }
