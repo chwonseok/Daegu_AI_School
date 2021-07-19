@@ -434,3 +434,64 @@ main {
 .product-info span {
   font-size: 12px;
 }
+
+/* footer */
+#footer {
+  border-top: solid 1px #e4e8eb;
+  margin-top: 10px;
+  padding-bottom: 92px;
+}
+
+#footer ul:first-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#footer ul:first-child li {
+  display: flex;
+  align-items: center;
+}
+
+#footer ul li img {
+  margin-right: 15px;
+}
+
+.news-info span,
+.news-info h3,
+.news-info p {
+  font-size: 13px;
+}
+
+.news-info span {
+  color: #58c464;
+}
+
+.corp-list {
+  margin-top: 20px;
+  padding-top: 25px;
+  border-top: solid 1px #e4e8eb;
+}
+
+.corp-list li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.corp-list li::before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  background: #e4e8eb;
+  margin: 0 8px;
+  vertical-align: -1px;
+}
+
+.corp-list li:first-child::before {
+  content: initial;
+}
+
+.corp-list li a {
+  font-size: 12px;
+}
