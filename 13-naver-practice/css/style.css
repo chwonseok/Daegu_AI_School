@@ -1,0 +1,315 @@
+/* DEFAULT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕',
+    helvetica, 'Apple SD Gothic Neo', sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+/* CONTENT */
+
+/* header-main */
+#header-main {
+  position: relative;
+  background: #fff;
+}
+
+.search-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  height: 160px;
+  background: #fff;
+  border-bottom: 1px solid #e4e8eb;
+}
+
+.search-area h1 {
+  width: 165px;
+  height: 52px;
+  font-size: 3rem;
+  color: #19ce60;
+}
+
+.search-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-left: 20px;
+
+  width: 582px;
+  height: 52px;
+  border: 2px solid #19ce60;
+}
+
+.search-wrap input {
+  width: calc(100% - 52px);
+  height: 24px;
+  padding: 13px 15px;
+  margin: 1px;
+  font-size: 22px;
+  line-height: 24px;
+  border: none;
+}
+
+.search-wrap input:focus {
+  outline: none;
+}
+
+.search-wrap button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 52px;
+  background: #19ce60;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+#nav-bar {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+#nav-bar ul {
+  padding: 11px 0;
+}
+
+#nav-bar li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#nav-bar li a {
+  color: #03c75a;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* main */
+main {
+  overflow: hidden;
+}
+
+#main-left {
+  float: left;
+  width: 750px;
+}
+
+#main-right {
+  float: right;
+  width: 350px;
+  height: 2000px;
+  background: lightseagreen;
+}
+
+.banner-wrap {
+  width: 750px;
+  height: 135px;
+  background: black;
+  margin-bottom: 12px;
+  color: white;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.news-header {
+  padding: 22px 0 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 60px;
+}
+
+.news-header h2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.news-buttons button {
+  width: 15px;
+  height: 15px;
+  background: purple;
+}
+
+.news-lists {
+  overflow: hidden;
+  border: solid 1px #dae1e6;
+}
+
+.news-list {
+  /* position: relative; */
+  text-align: center;
+  float: left;
+  width: 16.66%;
+  height: 65px;
+  border-bottom: solid 1px #e4e8eb;
+  border-right: solid 1px #e4e8eb;
+}
+
+.news-list:nth-child(6n) {
+  border-right: none;
+}
+
+.news-list:nth-child(19),
+.news-list:nth-child(20),
+.news-list:nth-child(21),
+.news-list:nth-child(22),
+.news-list:nth-child(23),
+.news-list:nth-child(24) {
+  border-bottom: none;
+}
+
+.news-list img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* blog */
+#blog-wrap {
+  margin-top: 35px;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left h3 {
+  font-size: 14px;
+}
+
+.header-left span {
+  font-size: 12px;
+  margin-left: 8px;
+  color: grey;
+}
+
+.header-right .article {
+  font-size: 12px;
+}
+
+.header-right span {
+  font-size: 13px;
+}
+
+.blog-nav {
+  margin-bottom: 15px;
+}
+
+.blog-nav ul {
+  overflow: hidden;
+  border: 1px solid #eae1e6;
+}
+
+.blog-nav ul li {
+  float: left;
+  width: 12.5%;
+  height: 49px;
+  border-right: 1px solid #eae1e6;
+}
+
+.blog-nav ul li:last-child {
+  border-right: none;
+}
+
+.blog-nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 49px;
+}
+
+.blog-list-wrap {
+  border-bottom: solid 1px #dae1e6;
+}
+
+.blog-list-wrap a {
+  display: flex;
+}
+
+.blog-list-wrap li {
+  margin-bottom: 18px;
+}
+
+.blog-list-wrap li img {
+  width: 170px;
+  height: 114px;
+  margin-right: 21px;
+}
+
+.blog-list-info {
+  width: 559px;
+  padding-right: 47px;
+}
+
+.blog-list-info span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #35ae5e;
+}
+
+.blog-list-info h4 {
+  font-size: 13px;
+}
+
+.blog-list-info p {
+  font-size: 13px;
+}
+
+.date-wrap span {
+  color: #505050;
+}
