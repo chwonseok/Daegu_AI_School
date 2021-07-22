@@ -195,3 +195,158 @@ h6 {
   height: 100%;
   border: solid 1px #ced2d7;
 }
+
+/* 3rd list-item */
+.list-half {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.list-half-top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 240px;
+  background: #fff;
+}
+
+.list-half-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 240px;
+  background: #fff;
+}
+
+.list-half-header {
+  position: relative;
+  text-align: center;
+
+  width: 100%;
+  height: 62px;
+  border-bottom: solid 1px #e7e7e7;
+}
+
+.list-half-header.bg {
+  background: lightsteelblue;
+}
+
+.half-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://c8.alamy.com/comp/B89B32/people-dubai-shopping-street-scene-small-shop-fronts-store-display-B89B32.jpg');
+  opacity: 0.5;
+}
+
+.half-top-title {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: inline-block;
+  padding: 4px;
+  border: solid 1px #fff;
+}
+
+.list-half-header span {
+  font-size: 12px;
+  margin: 10px 0 6px 0;
+  display: inline-block;
+  border: solid 1px #000000;
+  padding: 2px 4px;
+}
+
+.list-half-header h3 {
+  font-size: 14px;
+}
+
+.content-list-3 {
+  display: flex;
+  height: 178px;
+}
+
+.content-list-3 li {
+  width: 33.333%;
+  height: 100%;
+  border: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+.content-list-3 li:last-child {
+  border-right: none;
+}
+
+.content-list-3 li img {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.content-list-3 li h3 {
+  font-size: 13px;
+}
+
+.content-list-3 li span {
+  font-size: 12px;
+}
+
+.content-list-2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.content-list-2 li {
+  width: 130px;
+  height: 150px;
+}
+
+.content-list-2 li:first-child {
+  margin-right: 8px;
+}
+
+.content-wrap {
+  position: relative;
+  width: 130px;
+  height: 90px;
+  margin-bottom: 8px;
+}
+
+.content-wrap img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.discount {
+  position: absolute;
+  display: block;
+  background: red;
+  font-size: 14px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  top: 6px;
+  right: 5px;
+  color: white;
+  line-height: 42px;
+  text-align: center;
+}
+
+.content-list-2 h3 {
+  font-size: 13px;
+}
+
+.content-list-2 span {
+  font-size: 12px;
+  color: #62a7ee;
+}
+
+.content-list-2 span em {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  color: #62a7ee;
+}
