@@ -78,7 +78,18 @@ h6 {
 }
 
 .webtoon-header-left h2 {
-  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.webtoon-header-left h2 a:first-child {
+  font-size: 15px;
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+.webtoon-header-left h2 a:last-child {
+  font-size: 24px;
 }
 
 .webtoon-header-left .bar {
@@ -124,7 +135,13 @@ h6 {
 .webtoon-header-input-wrap .btn-search {
   width: 35px;
   height: 100%;
-  background-color: #00d564;
+  background: transparent;
+  border: none;
+}
+
+.btn-search i {
+  color: #a1a1a1;
+  transform: scale(1.5);
 }
 
 .webtoon-header-right {
@@ -233,6 +250,8 @@ h6 {
   float: left;
   width: 112px;
   padding: 20px 5px 0 15px;
+  border-right: 1px solid #ced2d7;
+  height: 100%;
 }
 
 .webtoon-carousel-left h2 {
@@ -250,12 +269,17 @@ h6 {
 }
 
 .webtoon-carousel-left ul {
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 .webtoon-carousel-left li {
   font-size: 12px;
   margin-bottom: 10px;
+}
+
+.webtoon-carousel-left li a {
+  color: #adadad;
+  font-weight: 800;
 }
 
 .webtoon-carousel-left li.on a {
@@ -320,15 +344,24 @@ h6 {
 }
 
 .webtoon-carousel-banner-nav .btn.btn-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   left: 0;
   top: 0;
-  background-color: pink;
 }
 
 .webtoon-carousel-banner-nav .btn.btn-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 0;
   top: 0;
-  background-color: blue;
+}
+
+.webtoon-carousel-banner-nav .btn.btn-prev i,
+.webtoon-carousel-banner-nav .btn.btn-next i {
+  color: #b2b2b2;
 }
 
 #webtoon-main .webtoon-main-left .webtoon-banner {
