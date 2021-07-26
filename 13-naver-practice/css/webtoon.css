@@ -426,6 +426,15 @@ h6 {
   margin-bottom: -1px;
 }
 
+#webtoon-main
+  .webtoon-main-left
+  .webtoon-content
+  .webtoon-content-header
+  li.on
+  a {
+  color: #00d564;
+}
+
 .webtoon-content-header li a {
   display: block;
   padding-bottom: 6px;
@@ -852,6 +861,11 @@ h6 {
   color: #434343;
 }
 
+.webtoon-detail .nav-1 ul li:first-child {
+  color: #424242;
+  font-weight: 900;
+}
+
 .webtoon-detail .nav-2 {
   padding-top: 20px;
 
@@ -875,6 +889,10 @@ h6 {
   border-color: #00d564;
   margin-bottom: -1px;
   font-weight: 700;
+}
+
+.webtoon-detail .nav-2 ul li.on a {
+  color: #00d564;
 }
 
 .webtoon-detail .nav-2 ul li:last-child {
@@ -994,6 +1012,10 @@ h6 {
 #webtoon-total-day .webtoon-day-list.active {
   background-color: #3a3a3a;
   border-color: #3a3a3a;
+}
+
+#webtoon-total-day .webtoon-day-list.active span,
+#webtoon-total-day .webtoon-day-list.active h3 {
   color: #fbcb00;
 }
 
