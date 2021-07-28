@@ -115,6 +115,11 @@ h6 {
   border: solid 1px #239e36;
 }
 
+#blog-header .blog-header-top .blog-search-wrap .btn-search i {
+  color: white;
+  font-size: 15px;
+}
+
 #blog-header .blog-header-top .btn-total-search {
   width: auto;
   height: 40px;
@@ -154,6 +159,11 @@ h6 {
   border-right: solid 1px #239e36;
 
   cursor: pointer;
+}
+
+#blog-header .blog-header-top .blog-header-right .btn-menu i {
+  color: white;
+  font-size: 15px;
 }
 
 #blog-header .blog-header-nav {
@@ -327,6 +337,12 @@ h6 {
   font-size: 12px;
   text-align: center;
   line-height: 20px;
+}
+
+.blog-main #hot-topic .pagination-wrap a:first-child {
+  background: #68707d;
+  color: white;
+  border: none;
 }
 
 .blog-main #hot-topic .hot-topic-right {
@@ -863,9 +879,15 @@ h6 {
   font-size: 14px;
   color: #333;
   margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .blog-main-detail #program-day .program-image-lists li span {
   font-size: 12px;
   color: #959595;
+}
+
+.blog-main-detail #program-day .program-image-lists li h4,
+.blog-main-detail #program-day .program-image-lists li span {
+  margin-left: 15px;
 }
