@@ -470,7 +470,6 @@ h6 {
   .news-main-header
   .news-main-header-right
   a.icon-2 {
-  /* background-color: pink; */
   text-align: center;
 }
 
@@ -480,7 +479,6 @@ h6 {
   .news-main-header
   .news-main-header-right
   a.icon-3 {
-  /* background-color: grey; */
   text-align: center;
 }
 
@@ -518,8 +516,15 @@ h6 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin-right: 10px;
 
   vertical-align: middle;
+}
+
+#news-main .news-left .news-main-wrap .news-main-body .news-lists li i {
+  font-size: 14px;
+  margin-right: 6px;
+  padding-top: 4px;
 }
 
 #news-main .news-left .news-main-wrap .news-main-body .news-lists li span {
@@ -527,25 +532,6 @@ h6 {
   color: #888888;
 
   vertical-align: middle;
-}
-
-#news-main
-  .news-left
-  .news-main-wrap
-  .news-main-body
-  .news-lists
-  li
-  span:before {
-  content: '';
-  position: relative;
-  display: inline-block;
-  width: 14px;
-  height: 11px;
-  background-color: grey;
-
-  margin: 0 4px;
-
-  top: 1px;
 }
 
 #news-main .news-left .news-main-wrap.news-custome .news-main-header ul li a {
@@ -829,8 +815,18 @@ h6 {
   color: #066fd1;
 }
 
+.fa-sort-down {
+  color: #066fd1;
+  margin-right: 4px;
+}
+
 #news-main .news-right #news-today .news-today-body .news-stock-lists em.up {
   color: #fe4638;
+}
+
+.fa-sort-up {
+  color: #fe4628;
+  margin-right: 4px;
 }
 
 #news-main .news-right #news-today .news-today-body .news-stock-search-wrap {
@@ -869,7 +865,19 @@ h6 {
   button {
   width: 30px;
   height: 100%;
-  background-color: black;
+  background-color: #fafafa;
+  border: none;
+}
+
+#news-main
+  .news-right
+  #news-today
+  .news-today-body
+  .news-stock-search-wrap
+  button
+  i {
+  color: #dedede;
+  font-size: 16px;
 }
 
 #news-nav-bottom {
