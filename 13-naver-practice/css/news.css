@@ -728,6 +728,10 @@ h6 {
   height: 250px;
   background-color: #000000;
   border: solid 1px #e3e3e3;
+  color: #fff;
+  text-align: center;
+  line-height: 250px;
+  font-size: 100px;
 
   margin-bottom: 30px;
 }
