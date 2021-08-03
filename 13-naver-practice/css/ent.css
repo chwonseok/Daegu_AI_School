@@ -88,11 +88,22 @@ h6 {
   font-weight: 700;
 }
 
+#ent-header .ent-header-left ul {
+  line-height: 23px;
+}
+
+#ent-header .ent-header-left ul li:first-child a {
+  font-weight: 900;
+  font-size: 20px;
+  color: #2db400;
+  margin-right: 5px;
+}
+
 #ent-header .ent-header-left ul li:last-child a {
   color: #9f9f9f;
 }
 
-#ent-header .ent-header-left ul li a:before {
+#ent-header .ent-header-left ul li:last-child a:before {
   content: '';
   display: inline-block;
   width: 1px;
@@ -219,11 +230,18 @@ h6 {
 
   width: 28px;
   height: 28px;
-  background-color: grey;
+  background-color: #e0e0e1;
   border-radius: 50%;
 
   left: 8px;
   bottom: 7px;
+}
+
+#ent-main .ent-left #ent-media-headline .media-top .icon-play i {
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 8px;
 }
 
 #ent-main .ent-left #ent-media-headline .media-bottom {
@@ -348,16 +366,21 @@ h6 {
 #ent-main .ent-left #ent-section-3 .right-wrap .btn-wrap .btn {
   width: 24px;
   height: 24px;
-  border: solid 1px #000000;
+  border: solid 0.5px #000000;
 }
 
 #ent-main .ent-left #ent-section-3 .right-wrap .btn-wrap .btn-prev {
   border-right: none;
-  background-color: blue;
+  background: transparent;
 }
 
 #ent-main .ent-left #ent-section-3 .right-wrap .btn-wrap .btn-next {
-  background-color: green;
+  background: transparent;
+}
+
+#ent-main .ent-left #ent-section-3 .right-wrap .btn-wrap .btn-prev i,
+#ent-main .ent-left #ent-section-3 .right-wrap .btn-wrap .btn-next i {
+  color: #909090;
 }
 
 #ent-main .ent-left #ent-section-3 li {
@@ -569,10 +592,17 @@ h6 {
 
   width: 28px;
   height: 28px;
-  background-color: grey;
+  background-color: #f7f5f1;
   border-radius: 50%;
 
   left: 8px;
+  bottom: 7px;
+}
+
+#ent-main .ent-left #ent-section-6 ul .img-wrap .icon-play i {
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
   bottom: 7px;
 }
 
@@ -846,9 +876,14 @@ h6 {
 #ent-main .ent-right .ent-banner {
   width: 300px;
   height: 250px;
-  background-color: grey;
+  background-color: #000;
+  color: #fff;
+
+  text-align: center;
+  line-height: 250px;
 
   border: solid 1px #000000;
+  font-size: 100px;
 
   margin-bottom: 30px;
 }
@@ -936,7 +971,11 @@ h6 {
 #ent-section-11 ul .title-wrap .icon-arrow {
   width: 8px;
   height: 12px;
-  background-color: #e2458f;
+}
+
+#ent-section-11 ul .title-wrap .icon-arrow i {
+  font-size: 12px;
+  line-height: 12px;
 }
 
 #ent-section-11 ul .article-content .content-left {
@@ -968,12 +1007,17 @@ h6 {
 }
 
 #ent-section-11 .bottom .btn-wrap .btn-prev {
-  background-color: grey;
+  background: transparent;
   border-right: none;
 }
 
 #ent-section-11 .bottom .btn-wrap .btn-next {
-  background-color: yellow;
+  background: transparent;
+}
+
+#ent-section-11 .bottom .btn-wrap .btn-prev i,
+#ent-section-11 .bottom .btn-wrap .btn-next i {
+  color: #909090;
 }
 
 #ent-section-11 .bottom .more {
