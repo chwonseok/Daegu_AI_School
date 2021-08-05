@@ -105,10 +105,17 @@ h6 {
 #game-header {
   width: 100%;
   background-color: #4e41db;
+  margin-bottom: 20px;
 }
 
 #game-header nav {
   height: 60px;
+}
+
+#game-header nav .left h1:first-child a {
+  font-size: 18px;
+  margin-right: 10px;
+  line-height: 18px;
 }
 
 #game-header nav .left h1 {
@@ -175,7 +182,15 @@ h6 {
   display: block;
   width: 40px;
   height: 40px;
-  border: solid 1px #ffffff;
+}
+
+#game-header nav .right .ticket-wrap .btn-ticket i {
+  position: absolute;
+
+  left: 2px;
+  top: 5px;
+  font-size: 32px;
+  color: #fff;
 }
 
 #game-header nav .right .ticket-wrap .bubble-msg {
@@ -244,8 +259,6 @@ h6 {
 
   left: 30px;
   bottom: 30px;
-
-  color: #ffffff;
 }
 
 #game-header .game-events-wrap .event-wrap .event-title-wrap span {
@@ -255,6 +268,7 @@ h6 {
 
   padding: 4px 8px 2px;
 
+  color: #ffffff;
   font-size: 12px;
   font-weight: 600;
 
@@ -264,6 +278,7 @@ h6 {
 }
 
 #game-header .game-events-wrap .event-wrap .event-title-wrap h2 {
+  color: #ffffff;
   font-size: 20px;
 }
 
@@ -286,14 +301,14 @@ h6 {
 }
 
 #game-main .left .left-banner a {
+  text-align: center;
+  line-height: 120px;
+  font-size: 90px;
   display: block;
   width: 100%;
   height: 100%;
-}
-
-#game-main .left .left-banner img {
-  width: 100%;
-  height: 100%;
+  background: #000;
+  color: #fff;
 }
 
 .game-section {
@@ -396,12 +411,20 @@ h6 {
   transform: translateX(-50%);
 }
 
-.game-section .btn-circle.icon-arrow {
-  background-color: grey;
+.game-section .btn-circle.icon-arrow i {
+  position: absolute;
+
+  font-size: 24px;
+  left: 17.5px;
+  top: 15px;
 }
 
-.game-section .btn-circle.icon-plus {
-  background-color: blue;
+.game-section .btn-circle.icon-plus i {
+  position: absolute;
+
+  font-size: 24px;
+  left: 17.5px;
+  top: 15px;
 }
 
 #game-section-1 .section-btn-wrap a {
@@ -713,7 +736,12 @@ h6 {
 #visitor-section .text-wrap .input-wrap button {
   width: 44px;
   height: 100%;
-  background-color: grey;
+  border: none;
+  background: #f3f4f8;
+}
+
+#visitor-section .text-wrap .input-wrap button i {
+  font-size: 20px;
 }
 
 .rank-section .right-section-body li {
@@ -807,11 +835,19 @@ h6 {
   position: absolute;
   width: 21px;
   height: 21px;
-  background-color: grey;
+  background: #7776ff;
   border-radius: 50%;
 
   top: -2px;
   right: -2px;
+}
+
+.rank-section .right-section-body .image-wrap .chk i {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  font-size: 12px;
+  color: #fff;
 }
 
 .rank-section .right-section-body .txt-wrap h3 {
