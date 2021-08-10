@@ -142,6 +142,7 @@ h6 {
 }
 
 #audio-header .audio-nav-right .search-wrap {
+  position: relative;
   width: 180px;
   height: 40px;
   background-color: #ffffff;
@@ -149,17 +150,20 @@ h6 {
   border-radius: 4px;
 }
 
-#audio-header .audio-nav-right .search-wrap .icon-search {
-  width: 40px;
-  height: 100%;
-  background-color: yellow;
+#audio-header .audio-nav-right .search-wrap i {
+  position: absolute;
+  margin-left: 4px;
+  font-size: 18px;
+  left: 5px;
 }
 
 #audio-header .audio-nav-right .search-wrap input {
+  position: absolute;
+  left: 28px;
   width: calc(100% - 40px);
   height: 100%;
 
-  padding: 8px 15px;
+  padding: 8px 10px;
   font-size: 15px;
 
   outline: none;
