@@ -113,8 +113,9 @@ h6 {
   padding: 12px 13px 17px 12px;
 }
 
-#audio-header .audio-nav-left li a.active {
-  font-weight: 700;
+#audio-header .audio-nav-left li a.active,
+#audio-header .audio-nav-left li a:hover {
+  font-weight: 800;
 }
 
 #audio-header .audio-nav-left li a span {
@@ -227,7 +228,7 @@ h6 {
   position: absolute;
   width: 35px;
   height: 35px;
-  background-color: yellow;
+
   border-radius: 50%;
   right: -17px;
 }
@@ -260,9 +261,8 @@ h6 {
 
   width: 35px;
   height: 35px;
-  background-color: yellow;
-  border-radius: 50%;
 
+  border-radius: 50%;
   top: 80px;
 }
 
@@ -356,11 +356,17 @@ h6 {
   position: absolute;
   width: 32px;
   height: 32px;
-  background-color: yellow;
-  border-radius: 50%;
 
+  border-radius: 50%;
+  background: #fdf6f6;
   bottom: -16px;
   right: 10px;
+}
+
+#audio-playlist .audio-body li .image-wrap .icon-play i {
+  position: absolute;
+  left: 10px;
+  top: 8px;
 }
 
 #audio-playlist .audio-body li h3 {
