@@ -1,0 +1,372 @@
+/* DEFAULT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕',
+    helvetica, 'Apple SD Gothic Neo', sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.ent-container {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+.ent-flex-start {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ent-flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ent-flex-end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ent-flex-between {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.audio-container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.audio-flex-start {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+
+.audio-flex-between {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+
+.audio-flex-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: stretch;
+}
+
+#audio-header {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: solid 1px #efeff4;
+
+  left: 0;
+  top: 0;
+
+  z-index: 99999;
+}
+
+#audio-header .audio-nav-left {
+  width: 660px;
+}
+
+#audio-header .audio-nav-left .audio-logo {
+  font-size: 25px;
+}
+
+#audio-header .audio-nav-left ul {
+  padding-top: 10px;
+}
+
+#audio-header .audio-nav-left li a {
+  display: block;
+  font-size: 17px;
+  padding: 12px 13px 17px 12px;
+}
+
+#audio-header .audio-nav-left li a.active,
+#audio-header .audio-nav-left li a:hover {
+  font-weight: 800;
+}
+
+#audio-header .audio-nav-left li a span {
+  position: relative;
+  display: inline-block;
+  height: 21px;
+}
+
+#audio-header .audio-nav-left li a.active span:after {
+  display: block;
+  position: absolute;
+  content: '';
+  border-bottom: solid 3px #222222;
+  border-radius: 1.5px;
+
+  z-index: 1;
+
+  left: -4.5px;
+  right: -5.5px;
+  bottom: -17px;
+}
+
+#audio-header .audio-nav-right {
+  width: 330px;
+}
+
+#audio-header .audio-nav-right .search-wrap {
+  position: relative;
+  width: 180px;
+  height: 40px;
+  background-color: #ffffff;
+  border: solid 2px rgba(0, 86, 201, 0.2);
+  border-radius: 4px;
+}
+
+#audio-header .audio-nav-right .search-wrap i {
+  position: absolute;
+  margin-left: 4px;
+  font-size: 18px;
+  left: 5px;
+}
+
+#audio-header .audio-nav-right .search-wrap input {
+  position: absolute;
+  left: 28px;
+  width: calc(100% - 40px);
+  height: 100%;
+
+  padding: 8px 10px;
+  font-size: 15px;
+
+  outline: none;
+  border: none;
+}
+
+#audio-header .audio-nav-right .search-wrap input:focus {
+  outline: none;
+}
+
+#audio-header .audio-nav-right .profile-wrap .profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+#audio-header .audio-nav-right .profile-wrap .btn-login {
+  font-size: 15px;
+  padding-left: 8px;
+}
+
+#audio-main {
+  width: 100%;
+  background-color: #f6f8fa;
+
+  padding-top: 61px;
+}
+
+/* CONTENT */
+
+#audio-main .audio-container {
+  align-items: flex-start;
+}
+
+#audio-main.audio-sub-main {
+  background-color: #ffffff;
+}
+
+.audio-category {
+  padding-top: 71px;
+}
+
+.audio-category .title-wrap {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #ececec;
+}
+
+.audio-category .title-wrap h2 {
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.audio-category .title-wrap p {
+  font-size: 14px;
+  color: #959595;
+  margin-top: 20px;
+}
+
+.audio-category .audio-category-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 22px;
+}
+
+.audio-category .audio-category-lists .category-list {
+  width: 162px;
+  height: 164px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.audio-category .audio-category-lists .category-list:nth-child(6n) {
+  margin-right: 0;
+}
+
+.audio-category .audio-category-lists a {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(230, 125, 127);
+  border-radius: 6px;
+  padding: 14px;
+}
+
+.audio-category .audio-category-lists a h3 {
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.audio-category .audio-category-lists a p {
+  position: absolute;
+  width: 80px;
+  font-size: 13px;
+  color: #fefefe;
+
+  bottom: 14px;
+}
+
+.audio-category .audio-category-lists a .thumbnail {
+  position: absolute;
+  width: 86px;
+  height: 120px;
+
+  right: -13px;
+  bottom: 0;
+
+  transform: rotate(15deg);
+}
+
+#auido-category-book {
+  padding-bottom: 120px;
+}
+
+#audio-footer {
+  background-color: #eaecef;
+  padding: 48px 0 164px;
+}
+
+#audio-footer h1 {
+  font-size: 25px;
+}
+
+#audio-footer h1 a {
+  color: #959595;
+}
+
+#audio-footer .copyright-wrap {
+  margin-top: 37px;
+}
+
+#audio-footer .copyright-wrap p {
+  letter-spacing: -0.5px;
+  font-size: 13px;
+  line-height: 19px;
+
+  color: #959595;
+}
+
+#audio-footer .footer-nav {
+  margin-top: 47px;
+}
+
+#audio-footer .footer-nav ul {
+  overflow: hidden;
+}
+
+#audio-footer .footer-nav li {
+  float: left;
+}
+
+#audio-footer .footer-nav li a {
+  font-size: 13px;
+  color: #959595;
+}
+
+#audio-footer .footer-nav li a:after {
+  display: inline-block;
+  content: '';
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #959595;
+
+  vertical-align: top;
+  margin: 9px 7px 0;
+}
+
+#audio-footer .footer-nav li:last-child a:after {
+  content: none;
+}
+
+#audio-footer .footer-copyright-link {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #959595;
+}
