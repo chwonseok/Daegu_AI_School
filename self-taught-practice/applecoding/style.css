@@ -1,0 +1,23 @@
+.container {
+  width: 800px;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: aquamarine;
+}
+
+.left {
+  display: inline-block;
+  width: 20%;
+  height: 500px;
+  background: cadetblue;
+}
+
+.right {
+  display: inline-block;
+  width: 80%;
+  height: 500px;
+  background: coral;
+}
