@@ -1,0 +1,26 @@
+:root {
+  --black: #18181a;
+  --font-color: #9147ff;
+  --font-size-40: 40px;
+}
+
+h1 {
+  background: var(--black);
+  font-size: var(--font-size-40);
+  color: var(--font-color);
+}
+
+#intro {
+  --naver: #04cf5c;
+  --header-size: 50px;
+}
+
+#intro p {
+  background: var(--naver);
+  font-size: var(header-size);
+}
+
+#footer p {
+  background: var(--naver);
+  font-size: var(header-size);
+}
