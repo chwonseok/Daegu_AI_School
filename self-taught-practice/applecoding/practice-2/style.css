@@ -1,12 +1,16 @@
 body {
   margin: 0;
-  height: 200vh;
 }
 
 .img-bg {
   width: 100%;
   height: 700px;
-  background-image: url('https://images.unsplash.com/photo-1593091816440-27564545a7aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80');
+  background-image: url('https://coresites-cdn-adm.imgix.net/rcuk/wp-content/uploads/2017/04/Bianchi.jpg?fit=crop');
   background-size: cover;
   background-position: center;
 }
+
+/* Tip for input ⬇️: type이 text인 input에만 적용시킬 수 있음*/
+/* input[type='text'] {
+  border-radius: 5px;
+} */
