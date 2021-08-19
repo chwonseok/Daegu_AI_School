@@ -371,3 +371,362 @@ input:focus {
   font-size: 12px;
   color: #aaaaaa;
 }
+
+/* Channel */
+.channel-container {
+  width: 1284px;
+  margin: 0 auto;
+}
+
+#youtube-channel-content #channel-banner {
+  width: 100%;
+  height: 250px;
+  background-color: darkblue;
+}
+
+#youtube-channel-content #channel-header {
+  padding: 16px 0 4px;
+  background-color: rgba(24, 24, 24, 1);
+}
+
+#youtube-channel-content
+  #channel-header
+  .channel-profile-wrap
+  .channel-profile
+  img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  margin-right: 24px;
+}
+
+#youtube-channel-content
+  #channel-header
+  .channel-profile-wrap
+  .channel-profile
+  .txt-wrap
+  h2 {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+#youtube-channel-content
+  #channel-header
+  .channel-profile-wrap
+  .channel-profile
+  .txt-wrap
+  p {
+  color: #aaaaaa;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#youtube-channel-content #channel-header .channel-profile-wrap .btn-subscribe {
+  padding: 10px 20px;
+  background-color: red;
+  border-radius: 5px;
+
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#channel-nav {
+  background-color: rgba(24, 24, 24, 1);
+}
+
+#channel-nav li a {
+  display: block;
+  height: 47px;
+
+  padding: 0 32px;
+
+  line-height: 47px;
+
+  border-bottom: solid 2px transparent;
+  color: #aaaaaa;
+}
+
+#channel-nav li a:hover {
+  color: #ffffff;
+}
+
+#channel-nav li a.active {
+  border-bottom: solid 2px #ffffff;
+  color: #ffffff;
+}
+
+#channel-recent {
+  align-items: flex-start;
+  padding: 24px 0;
+
+  border-bottom: solid 1px grey;
+}
+
+#channel-recent .thumbnail-wrap {
+  position: relative;
+  width: 246px;
+  height: 148px;
+  margin-right: 16px;
+}
+
+#channel-recent .thumbnail-wrap img {
+  width: 100%;
+  height: 100%;
+}
+
+#channel-recent .thumbnail-wrap .mark {
+  position: absolute;
+  background-color: red;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 4px 8px 2px;
+  border-radius: 5px;
+
+  right: 4px;
+  bottom: 4px;
+}
+
+#channel-recent .txt-wrap {
+  width: 600px;
+}
+
+#channel-recent .txt-wrap h2 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+#channel-recent .txt-wrap .channel {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+#channel-recent .txt-wrap .description {
+  padding-top: 8px;
+  font-size: 14px;
+  color: #aaaaaa;
+  line-height: 1.45;
+}
+
+.channel-playlists-section {
+  padding: 24px 0;
+  border-bottom: solid 1px grey;
+}
+
+.channel-playlists-section .playlists-header h3 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.channel-playlists-section .playlists-header .play-wrap {
+  width: 85px;
+}
+
+.channel-playlists-section .playlists-header .play-wrap .icon-play {
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+}
+
+.channel-playlists-section .playlists-header .play-wrap .play-link {
+  font-size: 14px;
+  color: #aaaaaa;
+  margin-left: 8px;
+}
+
+.channel-playlists-section .playlists-body {
+  margin-top: 24px;
+}
+
+.channel-playlists-section .playlists-body li {
+  width: 210px;
+}
+
+.channel-playlists-section .playlists-body li .channel-thumbnail {
+  width: 100%;
+  height: 118px;
+}
+
+.channel-playlists-section .playlists-body li .channel-thumbnail a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.channel-playlists-section .playlists-body li .channel-thumbnail img {
+  width: 100%;
+  height: 100%;
+}
+
+.channel-playlists-section .playlists-body li .channel-thumbnail .time {
+  position: absolute;
+
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 4px 8px 2px;
+  border-radius: 5px;
+
+  bottom: 4px;
+  right: 4px;
+}
+
+.channel-playlists-section .playlists-body .channel-txt-wrap {
+  margin-top: 8px;
+}
+
+.channel-playlists-section .playlists-body .channel-txt-wrap h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.channel-playlists-section .playlists-body .channel-txt-wrap h3 a {
+  color: #ffffff;
+}
+
+.channel-playlists-section .playlists-body .channel-txt-wrap p {
+  font-size: 12px;
+}
+
+.channel-playlists-section .playlists-body .channel-txt-wrap p a {
+  color: #aaaaaa;
+}
+
+.channel-playlists-section .playlists-body .channel-txt-wrap .txt-bottom .count,
+.channel-playlists-section .playlists-body .channel-txt-wrap .txt-bottom .date {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+/* Explore */
+
+.explore-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#explore-nav {
+  padding: 12px 0 8px;
+}
+
+#explore-nav li {
+  overflow: hidden;
+
+  width: 210px;
+  height: 116px;
+}
+
+#explore-nav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  border-radius: 5px;
+
+  padding: 20px;
+}
+
+#explore-nav li a:hover {
+  background-color: darkgrey;
+}
+
+#explore-nav li .icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: red;
+
+  margin-bottom: 25px;
+}
+
+#explore-nav li span {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#popular-section {
+  margin-top: 24px;
+}
+
+#popular-section h2 {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#popular-section ul {
+  margin-top: 24px;
+}
+
+#popular-section li {
+  margin-bottom: 16px;
+}
+
+#popular-section a {
+  align-items: flex-start;
+}
+
+#popular-section li .image-wrap {
+  position: relative;
+  width: 246px;
+  height: 148px;
+  margin-right: 16px;
+}
+
+#popular-section li .image-wrap img {
+  width: 100%;
+  height: 100%;
+}
+
+#popular-section li .image-wrap .time {
+  position: absolute;
+
+  padding: 4px 8px 2px;
+  background-color: #212121;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 5px;
+
+  bottom: 4px;
+  right: 4px;
+}
+
+#popular-section li .txt-wrap {
+  width: 600px;
+}
+
+#popular-section li .txt-wrap h3 {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#popular-section li .txt-wrap .video-info {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+#popular-section li .txt-wrap .video-info span:after {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #aaaaaa;
+  border-radius: 50%;
+
+  margin: 6px 4px 0 8px;
+  vertical-align: top;
+}
+
+#popular-section li .txt-wrap .video-info span:last-child:after {
+  content: none;
+}
+
+#popular-section li .txt-wrap .description {
+  padding-top: 8px;
+
+  font-size: 14px;
+  color: #aaaaaa;
+}
