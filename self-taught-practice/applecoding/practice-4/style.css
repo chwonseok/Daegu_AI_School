@@ -41,3 +41,36 @@ header {
   height: 100px;
   background: blue;
 }
+
+.info-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.info-container div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 60px 0;
+  /* border: 1px black solid; */
+}
+
+.info-container div p:first-child {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+  .info-container div {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-container div {
+    float: none;
+    width: 100%;
+  }
+}
