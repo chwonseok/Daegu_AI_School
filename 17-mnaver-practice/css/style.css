@@ -218,11 +218,11 @@ body {
   display: inline-block;
   color: #ebe4e4b6;
   font-weight: 600;
-  height: 90%;
+  height: 92%;
 }
 
 .container ul .on a {
-  border-bottom: solid 5px #fff;
+  border-bottom: solid 4px #fff;
   /* box-shadow: inset 0 -5px 0 #fff; 다른 해결 방법 */
 }
 
@@ -233,7 +233,7 @@ body {
 /* content area */
 .content {
   width: 375px;
-  height: 100%;
+  /* height: 100%; */
   margin-top: 110px;
   background: #f4f6f8;
 }
@@ -251,4 +251,106 @@ body {
 .ad a {
   color: #fff;
   font-size: 50px;
+}
+
+/* weather */
+.weather-container {
+  width: 375px;
+  padding: 30px 0;
+  background: #fff;
+}
+
+.weather-top {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.weather-top .fa-cloud-sun-rain {
+  font-size: 35px;
+  color: rgba(63, 94, 251, 1);
+}
+
+.weather-info h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.weather-info p {
+  font-size: 15px;
+}
+
+.weather-info p span {
+  color: rgb(41, 160, 235);
+}
+
+.weather-top .fa-compass {
+  margin-left: 5px;
+  font-size: 20px;
+  color: rgba(63, 94, 251, 1);
+}
+
+.weather-bottom {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.weather-bottom p {
+  color: #0f080888;
+}
+
+/* now */
+.now-container {
+  margin-top: 10px;
+  background: #fff;
+  padding-bottom: 20px;
+}
+
+.now-header {
+  padding: 20px;
+}
+
+.now-header h3 {
+  color: red;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.now-main {
+  display: flex;
+  padding: 0 20px;
+  overflow-x: scroll;
+}
+
+.now-main div {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.now-main img {
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 138px;
+}
+
+.now-main div p {
+  margin: 10px 0;
+}
+
+.now-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  width: 88%;
+  height: 40px;
+  border-radius: 20px;
+  background: rgba(221, 238, 248, 0.5);
+}
+
+.now-footer p {
+  color: grey;
 }
