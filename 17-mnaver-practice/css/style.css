@@ -354,3 +354,32 @@ body {
 .now-footer p {
   color: grey;
 }
+
+/* vaccine */
+.vaccine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 15px 0;
+  text-align: center;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.vaccine img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.vaccine p {
+  font-size: 15px;
+}
+
+.vaccine span {
+  color: lightskyblue;
+  font-weight: 700;
+}
