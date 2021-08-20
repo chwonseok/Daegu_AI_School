@@ -1,0 +1,254 @@
+/* SETUP */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CONTENT */
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.container {
+  width: 375px;
+  height: 812px;
+
+  overflow: hidden;
+  overflow-y: scroll;
+
+  background: #f4f6f8;
+  margin: 20% auto;
+}
+
+/* search bar */
+
+#main-nav {
+  position: fixed;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  background: #fff;
+}
+
+.search a {
+  padding: 12px;
+  text-align: center;
+}
+
+.search a:last-child {
+  margin-right: 10px;
+}
+
+.search i {
+  font-size: 30px;
+  color: #09c665;
+}
+
+.search input {
+  width: 100%;
+  border: none;
+  padding: 16px 15px 16px 0;
+  font-size: 20px;
+}
+
+.search input::placeholder {
+  position: relative;
+  color: #4b494960;
+  top: 4px;
+}
+
+/* nav */
+.container ul {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+
+  background-image: linear-gradient(to right, #09c665, #07bb7b);
+}
+
+.container ul li {
+  height: 100%;
+  line-height: 55px;
+  padding: 0 12px;
+}
+
+.container ul li a {
+  display: inline-block;
+  color: #ebe4e4b6;
+  font-weight: 600;
+  height: 90%;
+}
+
+.container ul .on a {
+  border-bottom: solid 5px #fff;
+  /* box-shadow: inset 0 -5px 0 #fff; 다른 해결 방법 */
+}
+
+.container ul .on a {
+  color: #fff;
+}
+
+/* content area */
+.content {
+  width: 375px;
+  height: 100%;
+  margin-top: 110px;
+  background: #f4f6f8;
+}
+
+/* advertisement */
+
+.container .ad {
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+  background: #000;
+  text-align: center;
+}
+
+.ad a {
+  color: #fff;
+  font-size: 50px;
+}
