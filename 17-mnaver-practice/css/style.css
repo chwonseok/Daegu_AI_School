@@ -383,3 +383,22 @@ body {
   color: lightskyblue;
   font-weight: 700;
 }
+
+/* small ad */
+.small-banner {
+  width: 100%;
+  height: 80px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+/* corona */
+.corona {
+  width: 100%;
+  height: 150px;
+  background: #fff;
+}
