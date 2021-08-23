@@ -163,6 +163,7 @@ body {
 
 #main-nav {
   position: fixed;
+  z-index: 1000;
 }
 
 .search {
@@ -324,6 +325,10 @@ body {
   overflow-x: scroll;
 }
 
+.now-main::-webkit-scrollbar {
+  display: none;
+}
+
 .now-main div {
   margin-right: 10px;
   text-align: center;
@@ -348,7 +353,7 @@ body {
   width: 88%;
   height: 40px;
   border-radius: 20px;
-  background: rgba(221, 238, 248, 0.5);
+  background: rgba(221, 238, 248, 0.4);
 }
 
 .now-footer p {
@@ -398,7 +403,281 @@ body {
 
 /* corona */
 .corona {
+  display: flex;
   width: 100%;
-  height: 150px;
   background: #fff;
+  margin-bottom: 10px;
+}
+
+.corona-left {
+  width: 68%;
+  padding: 20px;
+}
+
+.corona-left h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.current-corona {
+  display: flex;
+}
+
+.corona-info h4 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.corona-info p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.corona-info:last-child p {
+  color: red;
+}
+
+.line {
+  width: 1px;
+  background: rgb(245, 230, 230);
+  margin: 0px 20px;
+}
+
+.corona-right {
+  width: 32%;
+  text-align: center;
+  padding-top: 25px;
+  background: rgba(221, 238, 248, 0.603);
+  border: 1px #f4f6f8 solid;
+}
+
+.corona-right i {
+  color: #09c665;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.corona-right p {
+  font-size: 14px;
+}
+
+/* Check in */
+.checkin {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+
+.checkin .logo {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 18px;
+  background: #09c665;
+  margin-right: 10px;
+}
+
+.logo i {
+  font-size: 30px;
+  position: absolute;
+  color: #fff;
+  left: 9px;
+  top: 9px;
+}
+
+.checkin div:nth-child(2) {
+  margin-right: 40px;
+  line-height: 25px;
+}
+
+.checkin div:nth-child(2) p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.checkin div:nth-child(2) span {
+  font-weight: 700;
+}
+
+.checkin div:last-child {
+  line-height: 45px;
+  color: #09c665;
+}
+
+.checkin div:last-child p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* Items */
+.items {
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 75%;
+  padding: 10px;
+
+  background: #fff;
+  border: 1px #fff solid;
+  margin-bottom: 10px;
+}
+
+.item.left {
+  left: 0;
+}
+
+.item.right {
+  left: 72px;
+}
+
+.item img {
+  border-radius: 50%;
+}
+
+.item.left .item-middle {
+  margin-left: 20px;
+}
+
+.item-middle h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 25px;
+}
+
+.item-middle p {
+  font-size: 14px;
+}
+
+.left i {
+  line-height: 50px;
+  color: rgb(120, 69, 238);
+}
+
+.left h4 {
+  color: rgb(120, 69, 238);
+}
+
+.right i {
+  line-height: 50px;
+  color: #09c665;
+}
+
+.right h4 {
+  color: #09c665;
+}
+
+.left {
+  border-top-right-radius: 80px 80px;
+  border-bottom-right-radius: 80px 80px;
+}
+
+.right {
+  border-top-left-radius: 80px 80px;
+  border-bottom-left-radius: 80px 80px;
+}
+
+/* Border */
+.border {
+  height: 1px;
+  width: 90%;
+  margin: 20px auto;
+  background: rgba(221, 238, 248, 0.603);
+}
+
+/* Today-naver */
+.today-naver {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.today-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 8px;
+}
+
+.today-top h3 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.today-top p,
+.today-top i {
+  font-size: 15px;
+  color: rgba(100, 103, 104, 0.735);
+}
+
+.today-bottom {
+  background: #fff;
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.today-bottom-top {
+  height: 60%;
+  background: rgb(120, 69, 238);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Dots */
+.dots {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: rgba(185, 189, 191, 0.735);
+  border-radius: 50%;
+}
+
+.dot.on {
+  background: #09c665;
+  margin-right: 10px;
+}
+
+/* Footer */
+footer {
+  width: 60%;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-top h5 {
+  font-size: 15px;
+  color: rgba(91, 91, 92, 0.5);
+}
+
+.footer-top a {
+  margin-right: 5px;
+}
+
+footer .last-naver {
+  font-size: 22px;
+  font-weight: 800;
+  color: rgba(91, 91, 92, 0.5);
 }

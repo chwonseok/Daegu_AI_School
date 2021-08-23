@@ -173,6 +173,7 @@ header {
   color: #fff;
   padding: 10px 30px;
   border: none;
+  border-radius: 5px;
   background: #343a3f;
   cursor: pointer;
 }
