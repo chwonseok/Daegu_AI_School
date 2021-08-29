@@ -126,9 +126,28 @@ table {
 /* ====================== CONTENT ====================== */
 body {
   background: #f7f9fc;
+  font-family: -apple-system, sans-serif;
 }
 
 .container {
   width: 85%;
-  margin: 30px auto;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+/* ====================== Profile ====================== */
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px;
+  background: #fff;
+}
+
+.profile-left {
+  width: 85%;
+  border-right: 1px solid #a3c4e4d0;
+  margin-right: 20px;
+}
+
+.profile-right {
 }
