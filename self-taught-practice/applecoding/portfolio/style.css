@@ -125,9 +125,15 @@ table {
 }
 
 /* ====================== CONTENT ====================== */
+
 body {
   background: #f7f9fc;
   font-family: -apple-system, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .container {
@@ -136,19 +142,24 @@ body {
   margin: 50px auto;
 }
 
+.card {
+  background: #fff;
+  border-radius: 15px;
+}
+
 /* ====================== Profile ====================== */
 .profile-container {
   display: flex;
   justify-content: center;
   padding: 40px 60px;
-  background: #fff;
-  border-radius: 20px;
+
+  margin-bottom: 40px;
 }
 
 .profile-left {
   display: flex;
   width: 75%;
-  border-right: 1px solid #a3c4e4d0;
+  border-right: 1px solid #cddbe9d0;
   margin-right: 40px;
 }
 
@@ -202,4 +213,74 @@ body {
 .profile-right div p:first-child {
   font-weight: 600;
   margin-right: 100px;
+}
+
+/* ====================== Border ====================== */
+.outer-border {
+  position: relative;
+  width: 96%;
+  margin: auto;
+  top: 20px;
+  border-bottom: 2px solid #cddbe9d0;
+  border-collapse: collapse;
+}
+
+.inner-border {
+  position: absolute;
+  top: -38px;
+
+  border-bottom: solid 2px #6fbaf8;
+  width: 10%;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.inner-border p {
+  font-size: 22px;
+  color: #6fbaf8;
+}
+
+/* ====================== Main ====================== */
+.main {
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.works {
+  /* width: 20%; */
+  padding: 20px;
+  padding-bottom: 150px;
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.works p {
+  margin: 12px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.skill {
+  width: 60%;
+  padding: 20px;
+}
+
+.skill p {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #cddbe9d0;
+  margin: 30px 0;
 }
