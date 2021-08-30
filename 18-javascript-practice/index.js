@@ -75,3 +75,45 @@
 // const test2 = function () {
 //   console.log('this is test2');
 // };
+
+// iteration
+// While iteration
+// let num = 1;
+// while (num < 10) {
+//   console.log(2 * num);
+//   num++;
+// }
+// console.log('end'); // while iteration이 종료된 후 해당 code가 실행됨.
+
+// do ~ while
+// let i = 5;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i < 10);
+
+// for loop
+// for (let i = 1; i < 10; i++) {
+//   console.log(i * 2);
+// }
+
+// for (let i = 1; i < 3; i++) {
+//   for (let j = 1; j < 2; j++) {
+//     console.log(i, j, i * j);
+//   }
+// }
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// const arr = ['a', 'b', 'c'];
+// arr.pop('a');
+// console.log(arr);
+// arr.forEach((i, z) => {
+//   console.log(i, z);
+// });
+
+// arr.map((i) => {
+//   console.log(i);
+// });
