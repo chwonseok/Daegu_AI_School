@@ -102,6 +102,7 @@ section {
 }
 body {
   line-height: 1;
+  box-sizing: border-box;
 }
 ol,
 ul {
@@ -138,16 +139,67 @@ body {
 /* ====================== Profile ====================== */
 .profile-container {
   display: flex;
-  justify-content: space-between;
-  padding: 40px 40px;
+  justify-content: center;
+  padding: 40px 60px;
   background: #fff;
+  border-radius: 20px;
 }
 
 .profile-left {
-  width: 85%;
+  display: flex;
+  width: 75%;
   border-right: 1px solid #a3c4e4d0;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
-.profile-right {
+.profile-left img {
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.my-info {
+  padding: 20px 0;
+}
+
+.my-info h1 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.my-info h2 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.my-info p {
+  color: #6fbaf8;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.my-info button {
+  padding: 8px 25px;
+  background: #6fbaf8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.profile-right div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-right div p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.profile-right div p:first-child {
+  font-weight: 600;
+  margin-right: 100px;
 }
