@@ -65,3 +65,25 @@ function generateQuote() {
 }
 
 btn2.addEventListener('click', generateQuote);
+
+/*** text generator ***/
+const form = document.querySelector('form');
+const enteredMsg = document.querySelector('.entered');
+const errorMsg = document.querySelector('.error');
+const input = document.querySelector('.msg');
+
+function generateText(e) {
+  e.preventDefault();
+  if (input.value) {
+    enteredMsg.textContent = input.value;
+    input.value = '';
+    // form.reset() 이 방법도 가능
+  } else {
+    errorMsg.classList.add('show');
+    setTimeout(() => {
+      errorMsg.classList.remove('show');
+    }, 1000);
+  }
+}
+
+form.addEventListener('submit', generateText);
