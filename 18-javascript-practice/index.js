@@ -1,119 +1,67 @@
-// null and undefined
-// console.log(null + 10)
-// console.log(null + undefined)
+/* hex code
+  form: # + 6자리의 random number or alphabet;
+  number: 0 ~ 9
+  alphabet: a ~ f
+*/
 
-// function
-// function nameFunc(lastName, firstName) {
-//   return lastName + '' + firstName;
-// }
+const btn1 = document.getElementById('btn1');
+const hex = document.getElementById('hex');
+const body = document.querySelector('body');
 
-// const fullName = nameFunc;
+const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f'];
 
-// array
-// const arr = [1, 2, 3, 4, [5, 6, 7, [8, 9]]];
+function changeColor() {
+  let color = '#';
+  for (let i = 1; i < 7; i++) {
+    num = Math.floor(Math.random() * arr.length);
+    val = arr[num];
+    color += val;
+  }
 
-// object
-// const student = {
-//   firstName: 'Wonseok',
-//   lastName: 'Choi',
-//   age: 32,
-//   skills: ['html', 'css', 'JS', 'react'],
-//   sum(a, b) {
-//     return a + b;
-//   },
-// };
+  hex.textContent = color;
+  body.style.backgroundColor = color;
+}
 
-// Primitive type vs Reference type
-// let str1 = 'a';
-// let str2 = 'b';
-// str2 = str1;
-// str1 = 'c';
-// console.log(str1, str2);
+btn1.addEventListener('click', changeColor);
 
-//////////////////////////////////////////////////////////////
-// if, else if, else, ternary operator
-// parseInt():
-// 전역변수, 지역변수
-// const globalV = 'global';
-// if (true) {
-//   const localV = 'local';
+/*** quote generator ***/
+const quotation = document.getElementById('quotation');
+const writer = document.querySelector('.author');
+const btn2 = document.getElementById('btn2');
 
-//   console.log(globalV);
-//   console.log(localV);
-// }
+const quotes = [
+  {
+    quote: '“Be yourself; everyone else is already taken.”',
+    author: 'Oscar Wilde',
+  },
+  {
+    quote:
+      "“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”",
+    author: 'Albert Einstein',
+  },
+  {
+    quote: '“So many books, so little time.”',
+    author: 'Frank Zappa',
+  },
+  {
+    quote: '“A room without books is like a body without a soul.”',
+    author: 'Marcus Tullius Ceicero',
+  },
+  {
+    quote: '“You only live once, but if you do it right, once is enough.”',
+    author: 'Mae West',
+  },
+  {
+    quote: '“Life is what happens to us while we are making other plans.”',
+    author: 'Allen Saunders',
+  },
+];
 
-// console.log(globalV);
-// console.log(localV);
-// function a() {
-//   const apple = 'apple';
-// }
+function generateQuote() {
+  const random = Math.floor(Math.random() * quotes.length);
 
-// function b() {
-//   a();
-//   console.log(apple);
-// }
-// b();
+  quotation.textContent = quotes[random].quote;
+  writer.textContent = '-  ' + quotes[random].author;
+}
 
-// lexical scoping
-// let name = 'wonseok';
-// function func1() {
-//   console.log(name);
-// }
-// function func2() {
-//   let name = 'choi';
-//   func1();
-// }
-// func2();
-
-// Hoisting
-// 변수 호이스팅, 함수 호이스팅
-// test1();
-// function test1() {
-//   console.log('this is test1');
-// }
-// test2();
-// const test2 = function () {
-//   console.log('this is test2');
-// };
-
-// iteration
-// While iteration
-// let num = 1;
-// while (num < 10) {
-//   console.log(2 * num);
-//   num++;
-// }
-// console.log('end'); // while iteration이 종료된 후 해당 code가 실행됨.
-
-// do ~ while
-// let i = 5;
-// do {
-//   console.log(i);
-//   i++;
-// } while (i < 10);
-
-// for loop
-// for (let i = 1; i < 10; i++) {
-//   console.log(i * 2);
-// }
-
-// for (let i = 1; i < 3; i++) {
-//   for (let j = 1; j < 2; j++) {
-//     console.log(i, j, i * j);
-//   }
-// }
-
-// for (let i = 0; i < arr.length; i++) {
-//   console.log(arr[i]);
-// }
-
-// const arr = ['a', 'b', 'c'];
-// arr.pop('a');
-// console.log(arr);
-// arr.forEach((i, z) => {
-//   console.log(i, z);
-// });
-
-// arr.map((i) => {
-//   console.log(i);
-// });
+btn2.addEventListener('click', generateQuote);
