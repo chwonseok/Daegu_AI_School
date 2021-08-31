@@ -166,6 +166,8 @@ a {
 .profile-left img {
   border-radius: 50%;
   margin-right: 50px;
+  width: 150px;
+  height: 150px;
 }
 
 .my-info {
@@ -243,10 +245,10 @@ a {
 
 /* ====================== Main ====================== */
 .main {
+  display: flex;
   margin-top: 35px;
   width: 100%;
   height: 450px;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -295,9 +297,6 @@ a {
   margin-right: 8px;
 }
 
-.links {
-}
-
 .findme {
   padding: 40px 25px;
   text-align: center;
@@ -319,4 +318,46 @@ a {
   margin: 20px;
   font-size: 14px;
   color: #6fbaf8;
+}
+
+@media screen and (max-width: 768px) {
+  /* .container {
+    max-width: 768px;
+  } */
+
+  .profile-container {
+    display: inherit;
+  }
+
+  .profile-left {
+    width: 100%;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .profile-left img {
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+  }
+
+  .main {
+    display: inherit;
+    width: 90%;
+  }
+
+  .works {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+  .skill {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .findme {
+    width: 100%;
+  }
 }
