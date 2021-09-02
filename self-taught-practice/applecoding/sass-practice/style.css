@@ -1,0 +1,88 @@
+/* RESET */
+html {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd,
+p,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-size: 14px;
+  font-family: Dotum, '돋움', Helvetica, 'Apple SD Gothic Neo', sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+em {
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: top;
+}
+
+fieldset {
+  border: 0;
+}
+
+/* CONTENT */
+.grid-parents {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  grid-template-rows: 80px 100px 100px;
+  grid-gap: 10px;
+}
+
+.grid-parents div {
+  border: 1px solid #000;
+}
+
+.grid-nav {
+  grid-column: 1/4;
+}
+
+.grid-menu {
+  grid-row: 2/4;
+}
+
+.grid-main {
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
