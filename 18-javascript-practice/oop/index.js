@@ -41,6 +41,7 @@
 // tips();
 const txtEl = document.querySelector('.txt');
 const bikes = ['bianchi', 'trek', 'canyon', 's-works'];
+const colors = ['red', 'orange', 'green', 'blue', 'navy', 'purple'];
 
 function Typewriter(txtElement, bikes) {
   this.txtElement = txtElement;
@@ -57,14 +58,18 @@ Typewriter.prototype.type = function () {
   const current = this.bikeIndex % this.bikes.length;
   const fullTxt = this.bikes[current];
 
+  const clrNum = Math.floor(Math.random() * colors.length);
+
   // 한 글자씩 줄어드는 이펙트
   if (this.isDeleting) {
     this.txt = fullTxt.substring(0, this.txt.length - 1);
+    this.txtElement.style.color = colors[clrNum];
   }
 
   // 한 글자씩 늘어나는 이펙트
   if (!this.isDeleting) {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
+    this.txtElement.style.color = colors[clrNum];
   }
   this.txtElement.textContent = this.txt;
 
