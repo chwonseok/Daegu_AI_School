@@ -89,6 +89,36 @@ fieldset {
 }
 
 /* Sticky */
+body {
+  background: #000;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
 .grey {
-  background: grey;
+  /* background: grey; */
+  height: 2000px;
+  margin-top: 600px;
+  margin-bottom: 1600px;
+}
+
+.grey h2 {
+  float: left;
+  color: #fff;
+  width: 40%;
+  position: sticky;
+  top: 100px;
+  padding: 40px;
+}
+
+.grey img {
+  position: sticky;
+  top: 100px;
+  /* right: -300px; */
+  overflow: hidden;
+  float: right;
 }
