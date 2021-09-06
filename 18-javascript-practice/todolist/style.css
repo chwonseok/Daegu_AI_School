@@ -196,17 +196,70 @@ header button:hover {
 }
 
 /************** TODO LIST ***************/
+.clearboth {
+  clear: both;
+}
+
 .todo-wrap {
-  width: 100%;
-  margin: 50px 0;
+  width: 90%;
+  height: 35vh;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .todos li {
   float: left;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.todo {
+  margin-top: 15px;
 }
 
 .btns {
   float: right;
 }
 
+.btns button {
+  font-size: 20px;
+  border: 2px #fff solid;
+  border-radius: 10px;
+  padding: 5px;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btns .remove:hover {
+  background: rgba(208, 10, 20, 1);
+}
+
+.btns .done:hover,
+.btns .undone:hover {
+  background: rgba(10, 192, 208, 1);
+}
+
+.btns .done {
+  background: rgba(10, 192, 208, 0.8);
+  border: none;
+}
+
+.btns .remove {
+  background: rgba(208, 10, 20, 0.8);
+  border: none;
+}
+
+.btns .undone {
+  background: rgba(10, 192, 208, 0.8);
+  border: none;
+}
+
 /************** DONE LIST ***************/
+.done-wrap {
+  width: 90%;
+  height: 35vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
