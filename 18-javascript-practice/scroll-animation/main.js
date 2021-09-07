@@ -1,15 +1,17 @@
-const main = document.querySelector('.main');
-const back = document.querySelector('.back');
+const nav = document.querySelector('nav');
 
-const windowX = window.innerWidth;
-const windowY = window.innerHeight;
+let oldVal = 0;
 
-main.addEventListener('mousemove', (e) => {
-  const x = e.pageX;
-  const y = e.pageY;
+window.addEventListener('scroll', () => {
+  const newVal =
+    window.scrollY || //익스플로러 제외 모든 브라우저 지원
+    window.pageYOffset || // 익스플로러 9이상만
+    document.documentElement.scrollTop || // 익스플로러 8이하도 지원, but 크롬X
+    document.body.scrollTop; // 크롬, 사파리, 오페라, 엣지 지원
 
-  const moveX = (windowX / 2 - x) * 0.1;
-  const moveY = (windowX / 2 - y) * 0.1;
-
-  back.style.transform = `translate(${moveX}px, ${moveY}px)`;
+  if (oldVal - newVal < 0) nav.classList.add('active');
+  if (oldVal - newVal >= 0) nav.classList.remove('active');
+  // console.log('Old', oldVal);
+  // console.log('New', newVal);
+  oldVal = newVal;
 });

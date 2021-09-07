@@ -125,22 +125,40 @@ table {
 }
 
 /************** CONTENT ***************/
-.main {
-  position: fixed;
-  width: 90%;
-  height: 90%;
+.container {
+  width: 100%;
+  margin: auto;
 }
 
-.back {
-  position: absolute;
-  width: 110%;
-  height: 110%;
-  left: -5%;
-  top: -5%;
+nav {
+  display: flex;
+  position: fixed;
 
-  background-image: url(./bg.jpeg);
-  background-size: cover;
-  background-position: center;
+  background: #000;
+  width: 100%;
+  padding: 30px 100px;
+  margin: auto;
+}
 
-  /* transition: all 0.1s ease-in-out; */
+nav .menu {
+  color: #fff;
+}
+
+.main {
+  padding: 30px 100px;
+}
+
+.main div {
+  border-bottom: 3px #000 solid;
+  margin: 50px 0;
+}
+
+.main div p {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.active {
+  background: transparent;
+  color: #000;
 }
