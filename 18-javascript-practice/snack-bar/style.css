@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************** CONTENT ***************/
+.practice {
+  margin: 50px auto;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+button {
+  width: 70%;
+  background: red;
+  color: #fff;
+
+  cursor: pointer;
+  padding: 20px;
+  font-size: 20px;
+
+  text-align: left;
+
+  transition: all 0.4s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.active,
+button:hover {
+  background: #9b0a07;
+}
+
+.detail {
+  width: 67.45%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 24px;
+
+  padding: 0 18px;
+  max-height: 0;
+
+  transition: max-height 0.2s ease-in-out;
+}
+
+.detail p {
+  text-align: left;
+}
